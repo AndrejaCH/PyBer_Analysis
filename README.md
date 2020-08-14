@@ -15,20 +15,20 @@ The purpose of this analysis is to perform exploratory data analysis or EDA for 
 
 
 ### Background
-The data is gathered in two different CSV files (city data and ride data). In this analysis I am using Jupyter notebook and Pandas Library to inspect data, merge datasets, perform calculations an create data series and data frames. In addition to this I am using Python’s plotting library Matplotlib in order to tell visual story and to present complex findings in informative and engaging way. Data Visualization allow audience to absorb information quickly and detect patterns, trends, correlations and outliers in more effective way than just in a table with multiple rows.
+The data is gathered in two different CSV files (city data and ride data). In this analysis I am using Jupyter notebook and Pandas Library to inspect data, merge datasets, perform calculations an create data series and data frames. In addition to this I am using Python’s plotting library Matplotlib in order to tell visual story and to present complex findings in informative and engaging way. Data Visualization allows audience to absorb information quickly and detect patterns, trends, correlations and outliers in more effective way.
 
 ## Resources
 - Data Source: 
-  - [schools_complete.csv](Resources/city_data.csv)
-  - [students_complete.csv](Resources/ride_data.csv)
+  - [city_data.csv](Resources/city_data.csv)
+  - [ride_data.csv](Resources/ride_data.csv)
 - Software: 
   - Jupyter Notebook 6.0.3 <img src="Graphics/JupyterNotebookLogo.PNG" width="3%" height="3%">
 - Environment: 
   - Python 3.7 <img src="Graphics/PythonLogo.PNG" width="3%" height="3%">
 - Dependencies:
-  - Pandas Library 1.0.5 <img src="Graphics/PandasLogo.PNG" width="6%" height="6%">
-  - NumPy Library 1.17.0 <img src="Graphics/NumPyLogo.PNG" width="6%" height="6%">
   - Matplotlib Library 3.2.1 <img src="Graphics/MatplotlibLogo.PNG" width="6%" height="6%">
+  - NumPy Library 1.17.0 <img src="Graphics/NumPyLogo.PNG" width="6%" height="6%">
+  - Pandas Library 1.0.5 <img src="Graphics/PandasLogo.PNG" width="6%" height="6%">
 
 ## Results 
 From the data frame *The Summary Data Frame per City Type* below we can see the results from each city type – Urban, Suburban and Rural.
@@ -59,6 +59,7 @@ From the data frame *The Summary Data Frame per City Type* below we can see the 
   -	The average fare per driver is about 3.3-times lower in urban cities than in rural cities.
 
 **6.	The total fares for each week by city type.**
+
   The multi-line graph *Total Fare by City Type* below shows the total fare by city type (urban, suburban and rural) per week from January 2019 to the end of April 2019. 
 
 <p align="center">     
@@ -70,10 +71,12 @@ From the data frame *The Summary Data Frame per City Type* below we can see the 
   -	Suburban cities fall in between urban and rural cities with the total fares. The amount is ranging from the lowest about $650 per week to the highest $1,450 per week.
   -	All cities have pretty steady flow of total fares from week to week with a spike in the third week in February.
 
-### Overwiev the methods and code
+### Overview the methods and code
 
 #### Matplotlib
-Matplotlib is a Python graphing library and offers wider range of graphs, from line plots to 3D plots and it is widely used amongst data analysts. It also has rich styling options and customizable annotations. Matplotlib has two graphing methods: Pandas ***MATLAB*** and ***The object-oriented method***. MATLAB plotting is used for quick and simple plots that require little coding while the object-oriented method is used for more complex graphs, including those with multiple plots on the same graph and require more coding (1). Besides [official Matplotlib documentation]( https://matplotlib.org/3.2.2/users/index.html) Matplotlib offers many default plot settings that have  integrated many features and require little coding to make sophisticated graphs. For example, *Stylesheets* which includes a number of new default stylesheets, as well as the ability to create and package your own styles. One of them is **FiveThiryEight style** and it is typified by bold colors, thick lines, and transparent axes (2). Those styles can save us lots of time and coding.
+Matplotlib is a Python graphing library and offers wider range of graphs, from line plots to 3D plots and it is widely used amongst data analysts. It also has rich styling options and customizable annotations. Matplotlib has two graphing methods: Pandas ***MATLAB*** and ***The object-oriented method***. MATLAB plotting is used for quick and simple plots that require little coding while the object-oriented method is used for more complex graphs, including those with multiple plots on the same graph and require more coding (1). 
+
+Besides [official Matplotlib documentation]( https://matplotlib.org/3.2.2/users/index.html) Matplotlib offers many default plot settings that have  integrated many features and require little coding to make sophisticated graphs. For example, *Stylesheets* which includes a number of new default stylesheets, as well as the ability to create and package your own styles. One of them is **FiveThiryEight style** and it is typified by bold colors, thick lines, and transparent axes (2). Those styles can save us lots of time and coding.
 
 <p align="center">  
 <img src="Graphics/FiveThirtyEight.PNG" width="30%" height="30%">
@@ -115,13 +118,13 @@ Ride-Sharing data in correlation to average fare to total number of rides and dr
 3. Urban cities have the highest ride and driver count and the lowest average fare per driver, that is $16.57. I would suggest to deeper research this area by finding out what is the employee satisfaction rate and if the company makes profit on this numbers (total fare amount is $39,854.38). If employee rate is high and PyBer is profitable, that would indicate to keep the pattern in addition to take a closer look into the peaks. Finding out what causing them could reveal important information for business planning. 
 
 ## References
-(1)	The Matplotlib Library https://courses.bootcampspot.com/courses/200/pages/5-dot-1-2-the-matplotlib-library?module_item_id=59638 
+(1) Module 5. The Matplotlib Library https://courses.bootcampspot.com/courses/200/pages/5-dot-1-2-the-matplotlib-library?module_item_id=59638, Trilogy Education Services,        2000, Web 13 Aug 2020.
 
-(2)	Customizing Matplotlib: Configurations and Stylesheets https://jakevdp.github.io/PythonDataScienceHandbook/04.11-settings-and-stylesheets.html
+(2) Customizing Matplotlib: Configurations and Stylesheets, Python Data Science Hand Book, https://jakevdp.github.io/PythonDataScienceHandbook/04.11-settings-and-stylesheets.html, Web 13 Aug 2020.
 
-(3)	Plot a Pandas DataFrame and Series https://courses.bootcampspot.com/courses/200/pages/5-dot-1-10-plot-a-pandas-dataframe-and-series?module_item_id=59661
+(3) Module 5. Plot a Pandas DataFrame and Series https://courses.bootcampspot.com/courses/200/pages/5-dot-1-10-plot-a-pandas-dataframe-and-series?module_item_id=59661, Trilogy Education Services, 2000, Web 13 Aug 2020.
 
-(4)	Introduction to Exploratory Data Analysis https://medium.com/datadriveninvestor/introduction-to-exploratory-data-analysis-682eb64063ff
+(4)	(4)	Kaushik Mani, Introduction to Exploratory Data Analysis,  https://medium.com/datadriveninvestor/introduction-to-exploratory-data-analysis-682eb64063ff, Web 29 Jan 2019.
 
 ## Other Useful Articles
 - [Matplotlib users guide]( https://matplotlib.org/3.2.2/users/index.html)
