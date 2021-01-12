@@ -4,7 +4,7 @@
 ## Project Overview 
 ### Purpose
 
-The purpose of this analysis is to perform data analysis for Ride-Share company *PyBer* and to tell compelling story with data visualization. This analysis showcases the relationship between the type of the city -- urban, suburban and rural -- and their correlation between rides, drivers and fares, and congregates data from January to early May of 2019 and focuses on the following: 
+The purpose of this analysis is to perform data analysis for Ride-Share company *PyBer* and to tell a compelling story with data visualization. This analysis showcases the relationship between the type of the city -- urban, suburban and rural -- and their correlation between rides, drivers and fares, and congregates data from January to early May of 2019 and focuses on the following: 
 
 -	The total number of rides for each city type. 
 -	The total number of drivers for each city type.
